@@ -24,12 +24,18 @@
 ## Installation
 
 1. Clone or download this repository.
-2. Import the `SubtitleManager.cs` and `SubtitleManagerEditor.cs` scripts into your Unity project.
-3. Create a UI Text object using TextMeshPro, and assign it to the `SubtitleManager` component.
 
 ```bash
 git clone https://github.com/LordEvilM44Dev/Unity-Subtitle-System.git
 ```
+
+3. Import the `SubtitleManager.cs` and `SubtitleManagerEditor.cs` scripts into your Unity project.
+4. In the Unity Editor, create an empty GameObject in your scene, name it SubtitleManager.
+5. Assign the `SubtitleManager.cs` script to this GameObject by dragging it onto the GameObject in the Inspector.
+6. In your Unity project, create a folder named Editor at the root of the Assets directory (this is necessary for custom editor scripts).
+7. Move the `SubtitleManagerEditor.cs`  file into the newly created Editor folder.
+8. In the Unity Editor, create a new UI Text object using TextMeshPro by right-clicking in the Hierarchy panel and selecting UI > Text - TextMeshPro.
+9. Assign this TextMeshPro object to the `subtitleText` field in the `SubtitleManager.cs` component in the Inspector.
 
 ## How To Use
 1. Create a .txt file with the following format:
