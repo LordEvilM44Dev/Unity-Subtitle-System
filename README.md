@@ -3,7 +3,7 @@
 
 ## Overview
 
-This script works well with the [Audio File to Subtitle Converter](https://github.com/LordEvilM44Dev/Audio-File-to-Subtitle-Converter.git) allowing seamless integration of subtitles into Unity projects
+This script works well with the [Audio File to Subtitle Converter](https://github.com/LordEvilM44Dev/Audio-File-to-Subtitle-Converter.git) allowing seamless integration of audio into subbtitle text files.
 
 **Unity Subtitle System** is an easy-to-use script for managing subtitles in Unity games. It allows you to load subtitles from a custom text file format and display them with custom durations. The script also includes a custom editor tool for uploading subtitle files directly from the Unity Inspector.
 
