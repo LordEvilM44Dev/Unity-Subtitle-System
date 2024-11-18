@@ -45,7 +45,7 @@ git clone https://github.com/LordEvilM44Dev/Unity-Subtitle-System.git
 ```
 [DURATION="00:10"]
 [SUBTITLE="Hello, welcome to our game!"]
-[SPEAKER="Character Name"]
+[SPEAKER="Steve"]
 ```
 
 2. In the Unity Inspector, click on the "Upload Subtitles (.txt)" button and select your subtitle file.
